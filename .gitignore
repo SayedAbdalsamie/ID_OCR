@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data artifacts (keep structure, ignore contents)
+data/raw/*
+data/processed/*
+data/extracted/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/extracted/.gitkeep
+
+
